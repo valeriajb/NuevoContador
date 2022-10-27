@@ -1,0 +1,54 @@
+@media (min-width: 500px) {
+    .btnDiv{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    button{
+        margin: 5px;
+        border: none;
+        background-color: tomato;
+        padding: 10px 25px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+        cursor: pointer;
+       
+
+
+
+    }
+
+
+}
+
+@media (max-width: 375px) {
+
+    .tituloContador{
+        font-size: 50px;
+    }
+    .numeroContador{ 
+        font-size: 70px;
+    }
+
+    .btnDiv{
+        display: flex;
+        flex-direction: column;
+        margin: 3px;
+
+
+
+    }
+    button{
+        padding: 10px 20px;
+        margin: 10px;
+       
+
+
+
+    }
+
+}
+

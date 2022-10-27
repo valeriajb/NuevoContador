@@ -1,0 +1,12 @@
+.numeroContador{
+    font-size: 85px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 8% auto;
+    background-color: #DA0037;
+    color:#EDEDED;
+    width: fit-content;
+    padding: 30px 50px;
+    border-radius: 50%;
+           
+}
