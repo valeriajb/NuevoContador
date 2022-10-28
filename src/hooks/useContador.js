@@ -20,5 +20,7 @@ export const useContador=()=>{
         console.log(numberChange)
 
     }
+
     return {numberChange,setnumberChange,diminishHandled, ResetHandled, increaseHandled,useEffect}
 }
+export let numberChange

@@ -3,10 +3,7 @@ import { useContador } from "../../hooks/useContador";
 import "../CONTADOR/Contados.css";
 
 
-export function Contador() {
+export function Contador({numberChange}) {
   
-    const {numberChange}=useContador()
-
-    
     return <h2 className="numeroContador">{numberChange}</h2>;
 }
